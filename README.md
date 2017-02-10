@@ -2,10 +2,13 @@
 
 Python package for creating random simulated datasets using the variables and values in an existing dataset.
 
-## Usage
+# Installation
 
+```
 pip install simsets
+```
 
+## Usage
 ```
 import simsets
 import pandas as pd
