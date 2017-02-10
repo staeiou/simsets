@@ -10,4 +10,4 @@ def simulate_dataset(dataframe, length = 100):
             row[variable]=numpy.random.choice(values)
         simulated.loc[count]= pd.Series(row)
 
-        return simulated
+    return simulated
